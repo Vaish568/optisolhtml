@@ -1,0 +1,150 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+html {
+  font-size: 62.5%;
+}
+.header {
+  padding: 0 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  height: 10rem;
+  background-color: #ecf5fe;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  letter-spacing: 0.5px;
+  color: #1e202f;
+  opacity: 1;
+  gap: 3.2rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  font: normal normal normal 14px/20px Muli;
+  color: #1e202f;
+  opacity: 1;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #4099f1;
+}
+.nav-btn:link,
+.nav-btn:visited {
+  color: #4099f1;
+  letter-spacing: 0px;
+  border: 2px solid #4099f1;
+  /* font-weight: 400; */
+  padding: 0.5rem 1rem;
+  font: normal normal normal 14px/11px Muli;
+}
+.section-hero {
+  padding: 3rem 4.5rem;
+  background-color: #ecf5fe;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.hero-heading {
+  font: normal normal bold 64px/90px Merriweather;
+  letter-spacing: 0.45px;
+  color: #1e202f;
+  opacity: 1;
+}
+.hero-link:link,
+.hero-link:visited {
+  background: #4099f1 0% 0% no-repeat padding-box;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: center;
+  font: normal normal normal 14px/20px Muli;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 1rem 2rem;
+}
+.hero-link:hover,
+.hero-link:active {
+  background-color: #fff;
+  border: 2px solid #4099f1;
+  color: #1e202f;
+}
+.section-blog {
+  padding: 3rem 4.5rem;
+}
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 9rem;
+  padding: 2rem 0;
+}
+.each-post img {
+  width: 100%;
+  height: 80%;
+}
+.blog-heading {
+  text-align: left;
+  font: normal normal bold 32px/42px Merriweather;
+  letter-spacing: 0.5px;
+  color: #1e202f;
+  opacity: 1;
+  margin-top: 2rem;
+}
+.post-subheading {
+  text-align: left;
+  font: normal normal 900 20px/30px Merriweather;
+  letter-spacing: 0.22px;
+  color: #1e202f;
+  opacity: 1;
+  line-height: 2.2rem;
+  margin: 1rem 0.2rem;
+}
+.post-content {
+  font: normal normal normal 12px/23px Muli;
+  letter-spacing: 0.24px;
+  color: #888990;
+  opacity: 1;
+  margin: 0 0.2rem;
+  line-height: 2.2rem;
+}
+.blog {
+  font: normal normal bold 14px/26px Muli;
+  letter-spacing: 1px;
+  color: #4099f1;
+  opacity: 1;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 4.5rem 0 4.5rem;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.terms {
+  font: normal normal normal 16px/26px Muli;
+  letter-spacing: 0.5px;
+  color: #212b36;
+  opacity: 1;
+}
+.copyright {
+  font: normal normal normal 16px/26px Muli;
+  letter-spacing: 0.5px;
+  color: #82868a;
+  opacity: 1;
+}
